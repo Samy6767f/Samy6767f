@@ -6,13 +6,13 @@
 <!-- Animated Subtitle -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=College+Student+🎓;Vibe+Coding+Enthusiast+🎸;AI+%26+Frontend+Explorer+🤖;Exploring+the+Tech+Universe!+🚀" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=600&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=College%20Student%20%F0%9F%8E%93%3BVibe%20Coding%20Enthusiast%20%F0%9F%8E%B8%3BAI%20%26%20Frontend%20Explorer%20%F0%9F%A4%96%3BExploring%20the%20Tech%20Universe%21%20%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
 <!-- Profile Views -->
 <p align="center">
-  <img src="https://komarev.com/normal-badge/?username=Samy6767f&color=FF1493&style=flat-square&label=PROFILE+VIEWS+👀" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Samy6767f&color=FF1493&style=flat-square&label=PROFILE_VIEWS" alt="Profile Views" />
 </p>
 
 ---
@@ -52,21 +52,11 @@ I'm a college student on an exciting journey exploring the wide universe of tech
 ### 📊 GitHub Stats & Vibe Check
 
 <p align="center">
-  <a href="https://github.com/Samy6767f">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Samy6767f&show_icons=true&theme=vibrant&locale=en&hide_border=false" alt="Samy's GitHub Stats" />
-  </a>
+  <img align="center" src="./assets/stats.svg" alt="Samy's GitHub Stats" />
 </p>
 <br>
 <p align="center">
-  <a href="https://github.com/Samy6767f">
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Samy6767f&theme=vibrant&hide_border=false" alt="Samy's Streak Stats" />
-  </a>
-</p>
-<br>
-<p align="center">
-  <a href="https://github.com/Samy6767f">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Samy6767f&layout=compact&theme=vibrant&hide_border=false" alt="Samy's Top Languages" />
-  </a>
+  <img align="center" src="./assets/langs.svg" alt="Samy's Top Languages" />
 </p>
 
 ---
