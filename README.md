@@ -21,7 +21,8 @@
 ### About
 
 Fine-tuning runs, distillation pipelines, and training experiments — logged honestly,
-including the ones that didn't work. Publishing checkpoints to HuggingFace under `SamY36`.
+including the ones that didn't work. Publishing checkpoints to
+[HuggingFace @ SamY36](https://huggingface.co/SamY36).
 
 ---
 
@@ -38,17 +39,28 @@ More entries get added as runs finish — successful or not.
 
 ---
 
-### Stack (training-scoped)
+### Repos
 
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Unsloth-FF6B00?style=for-the-badge&logo=fireship&logoColor=white"/> <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+**AI & chat**
+| Repo | Stack | What it is |
+|---|---|---|
+| [G0DM0D3](https://github.com/Samy6767f/G0DM0D3) | TypeScript | Customized chatbot frontend |
+| [openclaw](https://github.com/Samy6767f/openclaw) | Markdown | Personal AI assistant, cross-platform |
+| [AI_Final](https://github.com/Samy6767f/AI_Final) | TypeScript | AI coursework project |
+| [Shop_ai](https://github.com/Samy6767f/Shop_ai) | Python | AI agent for e-commerce/shopping |
+
+**Compiler design**
+| Repo | Stack | What it is |
+|---|---|---|
+| [Compiler_f](https://github.com/Samy6767f/Compiler_f) ⭐ 1 | Python | Compiler implementation |
+| [Compiler_final](https://github.com/Samy6767f/Compiler_final) | Python | Final compiler project codebase |
+| [Compiler](https://github.com/Samy6767f/Compiler) | — | Compiler design coursework |
 
 ---
 
-### Pinned
+### Stack
 
-| Repo | What it is |
-|---|---|
-| **[Compiler_final](https://github.com/Samy6767f/Compiler_final)** | Python compiler project |
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Unsloth-FF6B00?style=for-the-badge&logo=fireship&logoColor=white"/> <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 
 ---
 
@@ -56,15 +68,10 @@ More entries get added as runs finish — successful or not.
 
 ### Contribution activity
 
-<img src="https://github-readme-stats.vercel.app/api?username=Samy6767f&show_icons=true&theme=github_dark&hide_border=true&title_color=B026FF&icon_color=B026FF&text_color=c9d1d9&bg_color=0d1117" width="65%" alt="GitHub Stats" />
-
-<br/><br/>
-
-<!--START_SECTION:waka-->
-<img src="https://raw.githubusercontent.com/Samy6767f/Samy6767f/output/github-contribution-grid-snake.svg" alt="contribution snake animation" width="100%" />
-<!--END_SECTION:waka-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Samy6767f/Samy6767f/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Samy6767f/Samy6767f/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/Samy6767f/Samy6767f/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 </div>
-
-> The animated snake above eats your contribution graph — it's generated automatically
-> by a GitHub Action (setup below), not a static image, so it updates on its own.
