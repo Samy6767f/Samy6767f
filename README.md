@@ -1,62 +1,55 @@
-<!-- Header Section -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=23,24,25,26,27&height=220&section=header&text=Hey%20there,%20I'm%20Shadow6766_%20✨&fontSize=35&fontColor=ffffff&animation=twinkle" width="100%" />
-</p>
+<div align="center">
 
-<!-- Animated Subtitle -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=600&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=College%20Student%20%F0%9F%8E%93%3BVibe%20Coding%20Enthusiast%20%F0%9F%8E%B8%3BAI%20%26%20Frontend%20Explorer%20%F0%9F%A4%96%3BExploring%20the%20Tech%20Universe%21%20%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
-</p>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3500&pause=1200&color=B026FF&center=true&vCenter=true&width=650&lines=Training+run+47%3A+loss+diverging;LoRA+rank+64%2C+still+cooking;GRPO+abandoned+-+reward+logs+lied;9+repos%2C+3+that+actually+trained" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/status-experimental-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/main%20account-Gracy769-39FF14?style=flat-square"/>
+
+</div>
 
 ---
 
-### 👋 About Me
+### About this account
 
-I'm a college student on an exciting journey exploring the wide universe of technology! I live for **vibe coding**, experimenting with **AI**, crafting interactive **frontend** experiences, and playing around with anything that catches my curiosity. 🌟
+This is the lab notebook, not the portfolio. My main account ([`Gracy769`](https://github.com/Gracy769))
+is where finished projects live — this one is where model training actually happens:
+fine-tuning runs, distillation pipelines, and the experiments that didn't work, logged
+honestly instead of quietly deleted.
 
-* 🔭 **Currently exploring:** Frontend frameworks, AI agents, and cool UI designs.
-* 🌱 **Learning:** Python, TypeScript, and pushing the boundaries of AI-assisted development.
-* ⚡ **Fun Fact:** I believe the best code is written when the music is loud and the vibes are just right! 🎧
-
----
-
-### 🛠️ My Tech Stack & Tools
-
-<p align="left">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-</p>
-
-<p align="left">
-  <!-- Frameworks & Ecosystem -->
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-</p>
+Publishing checkpoints to HuggingFace under `SamY36`.
 
 ---
 
-### 📊 GitHub Stats & Vibe Check
+### Experiment log
 
-<p align="center">
-  <img align="center" src="./assets/stats.svg" alt="Shadow6766_'s GitHub Stats" />
-</p>
-<br>
-<p align="center">
-  <img align="center" src="./assets/langs.svg" alt="Shadow6766_'s Top Languages" />
-</p>
+| Run | Base model | Method | Outcome |
+|---|---|---|---|
+| `vibethinker-selfdistill-v1` | Qwen2.5-Coder-3B | Multi-teacher distillation (4 Groq-hosted teachers → 242 traces) + SFT | ✅ SFT converged, val loss 1.776 — uploaded |
+| `vibethinker-grpo` | same as above | GRPO on top of SFT checkpoint | ❌ Abandoned — reward log anomalies, not trustworthy |
+| `coding-lora-qwen3-4b` | Qwen3-4B-Instruct-2507 | LoRA r=64, Q8_0 GGUF export, multi-lang + cybersecurity + web dev | 🔄 In progress — mid-debug on Kaggle dependency pinning (unsloth/trl/datasets/torchao vs torch 2.6.0+cu124) |
+| `monster_coding.jsonl` | — | Dataset pipeline: per-source schema extraction, dedup, `<think>` block wrapping | ✅ Built, feeding sub-3B training runs |
+
+More entries get added as runs finish — successful or not.
 
 ---
 
-<p align="center">
-  Let's connect, share ideas, and vibe code together! ✨<br>
-  <b>Happy Coding! 🚀</b>
-</p>
+### Stack (training-scoped)
+
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Unsloth-FF6B00?style=for-the-badge&logo=fireship&logoColor=white"/> <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+
+---
+
+### Pinned
+
+| Repo | What it is |
+|---|---|
+| **[Compiler_final](https://github.com/Samy6767f/Compiler_final)** | Python compiler project |
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Samy6767f&show_icons=true&theme=github_dark&hide_border=true&title_color=B026FF&icon_color=B026FF&text_color=c9d1d9&bg_color=0d1117" width="65%" />
+
+</div>
