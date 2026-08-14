@@ -48,7 +48,7 @@ More entries get added as runs finish — successful or not.
 | [Compiler_final](https://github.com/Samy6767f/Compiler_final) | Python | Final compiler project codebase |
 | [Compiler](https://github.com/Samy6767f/Compiler) | — | Compiler design coursework |
 | [Shop_ai](https://github.com/Samy6767f/Shop_ai) | Python | AI agent for e-commerce/shopping |
-| [Ai_Convert](https://github.com/Samy6767f/AI_Final) | Python | Plain-English into a fully validated, machine-readable application specification in seconds. |
+| [Ai_Convert](https://github.com/Samy6767f/AI_Final) | Typescript | Plain-English into a fully validated, machine-readable application specification in seconds. |
 
 ---
 
