@@ -1,23 +1,27 @@
 <div align="center">
 
+```
+     ╔═══════════════════════════════════════╗
+     ║   >_ loss.backward()                   ║
+     ║     epoch 47/100 ... diverging         ║
+     ║     retrying with lr=1e-5              ║
+     ╚═══════════════════════════════════════╝
+```
+
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3500&pause=1200&color=B026FF&center=true&vCenter=true&width=650&lines=Training+run+47%3A+loss+diverging;LoRA+rank+64%2C+still+cooking;GRPO+abandoned+-+reward+logs+lied;9+repos%2C+3+that+actually+trained" alt="Typing SVG" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/status-experimental-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/main%20account-Gracy769-39FF14?style=flat-square"/>
+<img src="https://img.shields.io/badge/status-experimental-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/mode-training-B026FF?style=flat-square"/>
 
 </div>
 
 ---
 
-### About this account
+### About
 
-This is the lab notebook, not the portfolio. My main account ([`Gracy769`](https://github.com/Gracy769))
-is where finished projects live — this one is where model training actually happens:
-fine-tuning runs, distillation pipelines, and the experiments that didn't work, logged
-honestly instead of quietly deleted.
-
-Publishing checkpoints to HuggingFace under `SamY36`.
+Fine-tuning runs, distillation pipelines, and training experiments — logged honestly,
+including the ones that didn't work. Publishing checkpoints to HuggingFace under `SamY36`.
 
 ---
 
@@ -50,6 +54,17 @@ More entries get added as runs finish — successful or not.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Samy6767f&show_icons=true&theme=github_dark&hide_border=true&title_color=B026FF&icon_color=B026FF&text_color=c9d1d9&bg_color=0d1117" width="65%" />
+### Contribution activity
+
+<img src="https://github-readme-stats.vercel.app/api?username=Samy6767f&show_icons=true&theme=github_dark&hide_border=true&title_color=B026FF&icon_color=B026FF&text_color=c9d1d9&bg_color=0d1117" width="65%" alt="GitHub Stats" />
+
+<br/><br/>
+
+<!--START_SECTION:waka-->
+<img src="https://raw.githubusercontent.com/Samy6767f/Samy6767f/output/github-contribution-grid-snake.svg" alt="contribution snake animation" width="100%" />
+<!--END_SECTION:waka-->
 
 </div>
+
+> The animated snake above eats your contribution graph — it's generated automatically
+> by a GitHub Action (setup below), not a static image, so it updates on its own.
