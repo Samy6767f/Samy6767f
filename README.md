@@ -41,20 +41,14 @@ More entries get added as runs finish — successful or not.
 
 ### Repos
 
-**AI & chat**
-| Repo | Stack | What it is |
-|---|---|---|
-| [G0DM0D3](https://github.com/Samy6767f/G0DM0D3) | TypeScript | Customized chatbot frontend |
-| [openclaw](https://github.com/Samy6767f/openclaw) | Markdown | Personal AI assistant, cross-platform |
-| [AI_Final](https://github.com/Samy6767f/AI_Final) | TypeScript | AI coursework project |
-| [Shop_ai](https://github.com/Samy6767f/Shop_ai) | Python | AI agent for e-commerce/shopping |
-
 **Compiler design**
 | Repo | Stack | What it is |
 |---|---|---|
-| [Compiler_f](https://github.com/Samy6767f/Compiler_f) ⭐ 1 | Python | Compiler implementation |
+| [Compiler_f](https://github.com/Samy6767f/Compiler_f) | Python | Compiler implementation |
 | [Compiler_final](https://github.com/Samy6767f/Compiler_final) | Python | Final compiler project codebase |
 | [Compiler](https://github.com/Samy6767f/Compiler) | — | Compiler design coursework |
+| [Shop_ai](https://github.com/Samy6767f/Shop_ai) | Python | AI agent for e-commerce/shopping |
+| [Ai_Convert][(https://github.com/Samy6767f/Shop_ai)](https://github.com/Samy6767f/AI_Final) | Python | Plain-English into a fully validated, machine-readable application specification in seconds. |
 
 ---
 
