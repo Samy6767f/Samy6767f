@@ -1,6 +1,6 @@
 <!-- Header Section -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=23,24,25,26,27&height=220&section=header&text=Hey%20there,%20I'm%20Samy!%20✨&fontSize=35&fontColor=ffffff&animation=twinkle" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=23,24,25,26,27&height=220&section=header&text=Hey%20there,%20I'm%20Shadow6766_%20✨&fontSize=35&fontColor=ffffff&animation=twinkle" width="100%" />
 </p>
 
 <!-- Animated Subtitle -->
@@ -8,11 +8,6 @@
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=600&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=College%20Student%20%F0%9F%8E%93%3BVibe%20Coding%20Enthusiast%20%F0%9F%8E%B8%3BAI%20%26%20Frontend%20Explorer%20%F0%9F%A4%96%3BExploring%20the%20Tech%20Universe%21%20%F0%9F%9A%80" alt="Typing SVG" />
   </a>
-</p>
-
-<!-- Profile Views -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Samy6767f&color=FF1493&style=flat-square&label=PROFILE_VIEWS" alt="Profile Views" />
 </p>
 
 ---
@@ -52,11 +47,11 @@ I'm a college student on an exciting journey exploring the wide universe of tech
 ### 📊 GitHub Stats & Vibe Check
 
 <p align="center">
-  <img align="center" src="./assets/stats.svg" alt="Samy's GitHub Stats" />
+  <img align="center" src="./assets/stats.svg" alt="Shadow6766_'s GitHub Stats" />
 </p>
 <br>
 <p align="center">
-  <img align="center" src="./assets/langs.svg" alt="Samy's Top Languages" />
+  <img align="center" src="./assets/langs.svg" alt="Shadow6766_'s Top Languages" />
 </p>
 
 ---

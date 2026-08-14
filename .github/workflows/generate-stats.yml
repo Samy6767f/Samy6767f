@@ -21,8 +21,8 @@ jobs:
       - name: Fetch Stats Cards
         run: |
           mkdir -p assets
-          curl -s -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=Samy6767f&show_icons=true&theme=vibrant&locale=en"
-          curl -s -o assets/langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=Samy6767f&layout=compact&theme=vibrant"
+          curl -s -o assets/stats.svg "https://github-stats-extended.vercel.app/api?username=Samy6767f&show_icons=true&theme=vibrant&locale=en"
+          curl -s -o assets/langs.svg "https://github-stats-extended.vercel.app/api/top-langs/?username=Samy6767f&layout=compact&theme=vibrant"
 
       - name: Commit and Push changes
         run: |
